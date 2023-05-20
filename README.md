@@ -6,3 +6,8 @@ An example project for API Documentation and OpenAPI swagger file generation usi
 
 https://scribe.knuckles.wtf/laravel/
 
+For generating documentation and OpenAPI Specifications:
+
+```bash
+php artisan scribe:generate
+```

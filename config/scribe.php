@@ -9,12 +9,12 @@ return [
     /*
      * The HTML <title> for the generated documentation. If this is empty, Scribe will infer it from config('app.name').
      */
-    'title' => null,
+    'title' => 'Marco Introini Example OpenAPI Demo',
 
     /*
      * A short description of your API. Will be included in the docs webpage, Postman collection and OpenAPI spec.
      */
-    'description' => '',
+    'description' => 'A basic example for generating OpenAPI specifications and API documentation',
 
     /*
      * The base URL displayed in the docs. If this is empty, Scribe will use the value of config('app.url').
@@ -138,7 +138,7 @@ return [
      * - "static" will generate a static HTMl page in the /public/docs folder,
      * - "laravel" will generate the documentation as a Blade view, so you can add routing and authentication.
      */
-    'type' => 'static',
+    'type' => 'laravel',
 
     /*
      * Settings for `static` type output.
@@ -185,7 +185,7 @@ return [
          * Add a Try It Out button to your endpoints so consumers can test endpoints right from their browser.
          * Don't forget to enable CORS headers for your endpoints.
          */
-        'enabled' => true,
+        'enabled' => false,
 
         /**
          * The base URL for the API tester to use (for example, you can set this to your staging URL).
@@ -270,6 +270,7 @@ INTRO
     'example_languages' => [
         'bash',
         'javascript',
+        'php',
     ],
 
     /*
